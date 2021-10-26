@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <h1>
+        This is form page
+    </h1>
+    <form action="data.html" method="GET">
+        <div class="form-fn">
+            <label for="fname">First Name</label>
+            <input name="firstname" type="text" required>
+        </div>
+        <div class="form-ln">
+            <label for="lname">Last Name</label>
+            <input name="lastname" type="text">
+        </div>
+        <div class="form-dob">
+            <label for="dob">Date of Birth</label>
+            <input name="dob" type="Date">
+        </div>
+        <div class="form-usn">
+            <label for="usn">USN</label>
+            <input name="usn" type="text" value="1BI" required>
+        </div>
+        <div class="form-sem">
+            <label for="sem">Semester</label>
+            <input name="sem" type="number" min="1" max="8" required>
+        </div>
+        <div class="form-dep">
+            <label for="dep">Department</label>
+            <select name="dep">
+                <option value=”CSE”>Computer Science</option>
+                <option value=”ISE”>Information Science</option>
+                <option value=”Mechanical”>Mechanical Engineering</option>
+                <option value=”Civil”>Civil Engineering</option>
+            </select>
+        </div>
+        <div class="form-bttn">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>

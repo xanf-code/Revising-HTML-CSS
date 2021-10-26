@@ -1,0 +1,13 @@
+.form-fn,
+.form-ln,
+.form-usn,
+.form-dob,
+.form-sem,
+.form-dep {
+  padding-bottom: 10px;
+}
+
+#results {
+  font-size: 30px;
+  font-weight: bold;
+}

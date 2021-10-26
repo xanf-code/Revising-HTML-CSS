@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<html>
+<body>
+    <a href="/">
+    <h1 class="ref-link">Go Back</h1>
+    </a>
+    <div id="results"></div>
+    <script>
+        const resList = document.getElementById("results")
+        new URLSearchParams(window.location.search).forEach((value,name) => {
+            resList.append(`${name} : ${value}`)
+            resList.append(document.createElement('br'))
+        })
+     </script>
+</body>
+</html>
